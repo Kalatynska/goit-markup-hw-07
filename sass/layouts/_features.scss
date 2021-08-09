@@ -9,13 +9,13 @@
   margin-top: -30px;
 }
 
-.features-list-item {
+.features-list__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
 
-.features-icon {
+.features-list__icon {
   display: flex;
   height: 120px;
   margin-bottom: 30px;
@@ -25,8 +25,11 @@
   align-items: center;
 }
 
-.features-list-item p {
+.features-list__description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.features-list__svg {
+  margin-right: 10px;
 }
